@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fast food </string>
+    <string name="rest_activity_title">Restaurants</string>
+    <string name="branches_activity_title">The branches</string>
+    <string name="menu_type_activity_title"></string>
+    <string name="rest_logo_lv_desc">restaurant logo</string>
+</resources>
