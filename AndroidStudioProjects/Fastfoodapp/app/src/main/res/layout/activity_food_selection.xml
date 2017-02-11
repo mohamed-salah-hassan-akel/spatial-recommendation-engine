@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_food_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.taxuns.fastfoodapp.FoodSelection">
+    <ListView
+        android:id="@+id/food_item_list"
+        android:textDirection="rtl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+    <Button
+        android:id="@+id/add_cart_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="29dp"
+        android:text="اضافة الى عربة التسوق"
+        android:textColor="#FFFF"/>
+
+</RelativeLayout>

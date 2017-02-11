@@ -94,8 +94,8 @@ public class BranchesActivity extends AppCompatActivity {
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-
-
+                       Intent foodDrinkIntent = new Intent(getApplicationContext(),FoodAndDrinksTypes.class);
+                        startActivity(foodDrinkIntent);
                     }
                 });
 
